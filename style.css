@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
 }
 .container{
     background-image: url(images/bgpic.jpg);
@@ -18,7 +19,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     height: 50px;
     
 }
@@ -39,3 +39,79 @@
     font-size: 17px;
     font-weight: 500;
 }
+.content{
+    height: 89vh;
+    width: 100%;
+    display: flex;
+}
+.left-content{
+    width: 50%;
+}
+.left-content h1{
+    font-size: 45px;
+    font-family:sans-serif;
+    color:rgb(94, 89, 67);
+    line-height: 55px;
+    padding-top: 30%;
+    padding-left: 100px;
+}
+.right-content{
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+.social-icons
+{
+    width: 150px;
+    height: 330px;
+    position: absolute;
+    right: 0px;
+    top: 222px;
+    border-top-left-radius:275px 309px ;
+    border-bottom-left-radius:328px 627px ;
+    border-bottom-right-radius:108px 345px ;
+    background-image: linear-gradient(#363136,#fd3ecd);
+}
+.social-icons ul
+{
+    display: block;
+    color: #fff;
+    margin: 80px 0 0 -20px;
+    cursor: pointer;
+}
+.social-icons ul li
+{
+    list-style: none;
+    margin-top: 20px;
+}
+.social-icons ul li .fa
+{
+    font-size: 22px;
+    z-index: 1;
+}
+
+
+
+
+/*.social-media-position{
+    height: 300px;
+    width: 250px;
+    background: chartreuse;
+    margin: 200px 0px 0px 520px;
+    
+}
+.social-icons ul
+{
+    display: block;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.social-icons ul li{
+    list-style: none;
+}
+.social-icons ul li .fab
+{
+    cursor: pointer;   
+}*/
+
