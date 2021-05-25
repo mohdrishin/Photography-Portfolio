@@ -39,32 +39,3 @@
     font-size: 17px;
     font-weight: 500;
 }
-.content{
-    width:50%;
-    position: absolute;
-    top: 35%;
-    background: lightcoral;
-    display:inline;
-}
-.left-col{
-    margin: 5% 0 5% 12%;
-}
-.left-col h1{
-    font-size: 60px;
-    font-weight: 500;
-    line-height: 80px;
-    
-}
-.right-col{
-    
-    margin-right: 6%;
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-}
-.right-col p{
-    font-size: 50px;
-    color: #ffffff;
-    font-weight: 500;
-    margin-left: 15px;
-}
