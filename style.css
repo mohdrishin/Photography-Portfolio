@@ -107,17 +107,18 @@
 
 /* Cards Section */
 .cards-section{
-    height: 100vh;
+    height: 550px;
     width: auto;
     /* background-color:rgb(16, 41, 41); */
-    position: relative;
+    /* position: relative; */
 }
 .cards-section .cards{
-    position: absolute;
-    top:190px;
+    /* position: absolute;
+    top:190px; */
+    margin-top: 220px;
     height: 400px;
     width: 330px;
-    margin-left: 569px;
+    margin: 100px auto;
     /* margin: px auto; */
     /* background-color: bisque; */
     /* border-radius: 10px; */
@@ -274,19 +275,151 @@
 
     /* Cards Section */
 .cards-section{
-    height: 100vh;
-    width: auto;
     /* background-color:rgb(16, 41, 41); */
-    position: relative;
+    /* position: relative; */
 }
 .cards-section .cards{
-    position: absolute;
-    top:190px;
-    right: 100px;
+    /* position: absolute;
+    top:190px; */
+    /* right: 100px; */
     height: 300px;
     width: 290px;
-    margin-left: 569px;
-    /* margin: px auto; */
+    margin: 100px auto;
+    /* background-color: bisque; */
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 2px solid #e8f4f5;
+}
+.cards .img-block{
+    height: 150px;
+    width: auto;
+}
+.img-block img{
+    background-size:contain;
+    background-position: center;
+    height: 220px;
+    width: 290px;
+}
+.cards .profile-datas{
+    height: 150px;
+    background-color:rgb(218, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-top-right-radius: 100px;
+    padding-left: 14px;
+    /* margin-top: -20px; */
+}
+.profile-datas h3{
+    padding-top:10px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: monospace;
+}
+.profile-datas .star-rating{
+    padding-top: 5px;
+    width: auto;
+}
+.star-rating .fas{
+    color:darkcyan;
+}
+.profile-datas p{
+    font-size: 10px;
+    padding-top: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding-right: 14px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.profile-datas .buttons{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-top: 7px;
+}
+.buttons .callme-btn{
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+    border:1px solid rgb(128, 118, 118);
+    cursor: pointer;
+}
+.buttons .share-btn{
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    border:1px solid rgb(128, 118, 118);
+    cursor: pointer;
+}
+.buttons .share-btn .fas{
+    color: darkcyan;
+}}
+
+@media screen and (min-width: 481px) and (max-width:768px){
+    .navbar{
+        /* flex-direction: column; */
+    }
+    .nav-ul{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #54334c;
+        z-index: 10;
+    }
+    .nav-ul.show{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+    .navbar ul li{
+        margin: 4px 5px;
+        padding: 10px 10px;
+        border-bottom: 0.5px solid rgb(141, 141, 141);
+    }
+    .navbar ul li a{
+        font-size: 15px;
+        color: #fff;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+    .left-content h1{
+        font-size: 32px;
+        font-family: sans-serif;
+        color: rgb(255 249 223);
+        line-height: 43px;
+        padding-top: 72%;
+        padding-left: 70px; 
+    }
+    .social-icons {
+        width: 92px;
+        height: 289px;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+        border-bottom-right-radius: 0px 345px;
+    }
+    .social-icons ul {
+        margin: 80px 0 0 18px;
+    }
+    /* Cards Section */
+.cards-section{
+    /* background-color:rgb(16, 41, 41); */
+    /* position: relative; */
+}
+.cards-section .cards{
+    /* position: absolute;
+    top:190px; */
+    /* right: 100px; */
+    height: 300px;
+    width: 290px;
+    margin: 100px auto;
     /* background-color: bisque; */
     /* border-radius: 10px; */
     display: flex;
@@ -360,61 +493,5 @@
 .buttons .share-btn .fas{
     color: darkcyan;
 }
-
-
-
-
-
-}
-
-@media screen and (min-width: 481px) and (max-width:768px){
-    .navbar{
-        /* flex-direction: column; */
-    }
-    .nav-ul{
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        background-color: #54334c;
-        z-index: 10;
-    }
-    .nav-ul.show{
-        display: flex;
-    }
-    .hamburger{
-        display: block;
-    }
-    .navbar ul li{
-        margin: 4px 5px;
-        padding: 10px 10px;
-        border-bottom: 0.5px solid rgb(141, 141, 141);
-    }
-    .navbar ul li a{
-        font-size: 15px;
-        color: #fff;
-    }
-    .logo{
-        margin-bottom: 10px;
-    }
-    .left-content h1{
-        font-size: 32px;
-        font-family: sans-serif;
-        color: rgb(255 249 223);
-        line-height: 43px;
-        padding-top: 72%;
-        padding-left: 70px; 
-    }
-    .social-icons {
-        width: 92px;
-        height: 289px;
-        position: absolute;
-        right: 0px;
-        top: 222px;
-        border-bottom-right-radius: 0px 345px;
-    }
-    .social-icons ul {
-        margin: 80px 0 0 18px;
-    }
 
 }    
